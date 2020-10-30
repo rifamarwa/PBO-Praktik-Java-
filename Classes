@@ -1,0 +1,19 @@
+package eksplorasi.java.core1;
+public class Page {
+    int height;
+    String color;
+    
+    void showPage(int inputHeight, String inputColor){
+        System.out.println("Tinggi halaman : " + inputHeight);
+        System.out.println("Warna halaman  : " + inputColor);         
+    }
+}
+
+public class kelas {
+    public static void main(String[] args) {
+        Page halaman1 = new Page();
+        halaman1.height = 21;
+        halaman1.color = "white";
+        halaman1.showPage(halaman1.height, halaman1.color);
+    }
+}
